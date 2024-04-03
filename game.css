@@ -1,0 +1,115 @@
+*{
+    
+    background-color: rgb(53, 33, 78);
+    color: white;
+    padding: 0px;
+    margin: 0%;
+}
+
+.heading{
+  
+    background-color: rgb(37, 10, 36);
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+   
+
+}
+.box{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 95px;
+}
+
+#paper,#stone,#scissor{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(245, 25, 227);
+    
+    
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin-top: 50px;
+    gap: 100px;
+    
+}
+
+#yourchoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px ;
+    color: rgb(235, 26, 183);
+    
+}
+
+#pcchoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(235, 26, 183);
+}
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(146, 107, 144);
+}
+
+.mess{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 50px;
+    width: 400px;
+    background-color: rgb(146, 107, 144);
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-left: 470px;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right:50px ;
+    font-size: 20px;
+}
+ .tag{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+ }
+
+ .imaje{
+    height: 150px;
+    width: 150px;
+    object-fit:fill;
+    border-radius: 50%;
+    
+ }
+
+ #paper:hover,
+ #stone:hover,
+ #scissor:hover{
+    border: 5px solid rgb(247, 5, 5);
+    cursor: pointer;
+    opacity: 0.7;
+    
+}
